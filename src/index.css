@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Elegant neutral palette - warm beige and sophisticated grays */
+    --background: 40 20% 98%;
+    --foreground: 30 10% 15%;
+
+    --card: 40 30% 97%;
+    --card-foreground: 30 10% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 30 10% 15%;
+
+    /* Warm bronze/copper accent */
+    --primary: 28 45% 35%;
+    --primary-foreground: 40 30% 97%;
+
+    /* Soft beige */
+    --secondary: 35 30% 92%;
+    --secondary-foreground: 30 10% 20%;
+
+    /* Muted warm gray */
+    --muted: 30 15% 90%;
+    --muted-foreground: 30 10% 45%;
+
+    /* Accent - subtle gold */
+    --accent: 38 50% 88%;
+    --accent-foreground: 30 10% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 20% 88%;
+    --input: 35 20% 88%;
+    --ring: 28 45% 35%;
+
+    --radius: 0.5rem;
+
+    /* Custom tokens */
+    --hero-overlay: linear-gradient(to right, hsl(30 10% 10% / 0.7), hsl(30 10% 10% / 0.3));
+    --section-alt: 35 25% 95%;
+    --gold: 38 70% 50%;
+    --gold-light: 38 60% 75%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-[hsl(var(--gold))];
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .btn-whatsapp {
+    @apply fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110;
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
