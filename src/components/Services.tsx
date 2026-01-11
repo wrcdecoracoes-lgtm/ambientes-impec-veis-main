@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import serviceVinyl from "@/assets/service-vinyl.jpg";
+import serviceVinyl from "@/assets/service-vinyl.avif";
 import serviceWallpaper from "@/assets/service-wallpaper.jpg";
 import serviceSanca from "@/assets/service-sanca.jpg";
 import serviceLaminate from "@/assets/service-laminate.jpg";
