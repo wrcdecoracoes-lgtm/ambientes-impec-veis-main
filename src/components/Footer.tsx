@@ -39,7 +39,7 @@ const Footer = () => {
                 <li>Piso Vinílico</li>
                 <li>Piso Laminado</li>
                 <li>Papel de Parede</li>
-                <li>Sanca de Gesso</li>
+                <li>Sanca de Isopor</li>
                 <li>Rodapé</li>
                 <li>Contrapiso</li>
               </ul>

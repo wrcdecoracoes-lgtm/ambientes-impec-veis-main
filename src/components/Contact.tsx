@@ -237,7 +237,7 @@ const Contact = () => {
                   <option value="Piso Vinílico">Piso Vinílico</option>
                   <option value="Piso Laminado">Piso Laminado</option>
                   <option value="Papel de Parede">Papel de Parede</option>
-                  <option value="Sanca de Gesso">Sanca de Gesso</option>
+                  <option value="Sanca de Isopor">Sanca de Isopor</option>
                   <option value="Rodapé">Rodapé</option>
                   <option value="Contrapiso">Contrapiso</option>
                   <option value="Outros">Outros</option>

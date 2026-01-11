@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8D5C4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5A2B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative pattern background -->
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bgGradient)" opacity="0.95"/>
+  
+  <!-- Main logo area with background -->
+  <rect x="400" y="200" width="400" height="180" rx="15" fill="#FFFFFF" opacity="0.1"/>
+  
+  <!-- Main text -->
+  <text x="600" y="290" font-family="Georgia, serif" font-size="100" font-weight="bold" text-anchor="middle" fill="#8B5A2B" letter-spacing="3">
+    WR
+  </text>
+  <text x="600" y="350" font-family="Georgia, serif" font-size="60" font-weight="bold" text-anchor="middle" fill="#B8860B" letter-spacing="2">
+    Instaladora
+  </text>
+  
+  <!-- Tagline -->
+  <text x="600" y="440" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#5C4033" font-weight="500">
+    Pisos, Revestimentos e Decora??o Profissional
+  </text>
+  
+  <!-- Decorative elements -->
+  <circle cx="150" cy="120" r="5" fill="#8B5A2B" opacity="0.2"/>
+  <circle cx="1050" cy="510" r="5" fill="#8B5A2B" opacity="0.2"/>
+  <circle cx="120" cy="550" r="4" fill="#B8860B" opacity="0.3"/>
+  <circle cx="1080" cy="80" r="4" fill="#B8860B" opacity="0.3"/>
+  <rect x="100" y="100" width="80" height="2" rx="1" fill="#8B5A2B" opacity="0.15" transform="rotate(45 140 101)"/>
+  <rect x="1020" y="520" width="80" height="2" rx="1" fill="#8B5A2B" opacity="0.15" transform="rotate(-45 1060 521)"/>
+</svg>
